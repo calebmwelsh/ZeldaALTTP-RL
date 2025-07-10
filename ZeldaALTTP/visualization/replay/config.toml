@@ -1,0 +1,21 @@
+[Paths]
+base_path = "."
+assets_path = "assets/general"
+sessions_path = "sessions"
+
+[ReplayVisualization]
+screen_size_option = "half"
+sprite_scale = 1
+fps = 60
+teleport_threshold = 200
+show_label = true
+camera_move_speed = 10
+num_movement_files = "ALL"
+skip_to_position = 2000
+envs_to_load = "ALL"
+link_pos_offset_x = 6
+link_pos_offset_y = 24
+world_map_image = "lightworld_2.png"
+zoom_level = 1.0
+model_number = "30.05"
+episode_number = -1

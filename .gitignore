@@ -1,0 +1,23 @@
+# Libraries and dependencies
+libmgba-py/
+install_testing/
+# pygba-main/
+pokemonredmaster/
+
+# Python cache
+__pycache__/
+*tempCodeRunnerFile.py
+
+# VSCode workspace files
+main.code-workspace
+visual.code-workspace
+
+.DS_Store
+
+ZeldaALTTP/roms/gba/*
+ZeldaALTTP/sessions/* 
+ZeldaALTTP/states/* 
+
+eval_agents.py
+notes.txt
+ZeldaALTTP/run_interactive.py

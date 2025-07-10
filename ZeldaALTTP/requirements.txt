@@ -1,0 +1,6 @@
+pygba
+gymnasium
+numpy
+pillow
+torch
+stable-baselines3 

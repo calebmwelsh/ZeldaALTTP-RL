@@ -1,0 +1,45 @@
+[Paths]
+init_state = { optional = false, default = "states/StartPos.state", explanation = "Path to initial GBA emulator save state file (not battery save)", example = "states/StartPos.state" }
+session_path = { optional = false, default = "./session_path", explanation = "Directory for session data.", example = "./session_path" }
+gb_path = { optional = false, default = "../ZeldaALTTP.gb", explanation = "Path to Game Boy ROM.", example = "../ZeldaALTTP.gb" }
+override_model_path = { optional = true, default = "", explanation = "If set, can be a model number (e.g. 17) to load the latest model from that folder, or a path to a specific model file for training.", example = "17" }
+
+[TrainModel]
+action_freq = { optional = false, default = 24, explanation = "Number of emulator frames per action.", example = 24 }
+episode_length = { optional = false, default = 1000000, explanation = "Episode length (steps per episode).", example = 1000000 }
+episode_count = { optional = false, default = 10, explanation = "Number of episodes for agent training.", example = 10 }
+num_envs = { optional = false, default = 1, explanation = "Number of concurrent environments for training.", example = 1 }
+checkpointing = { optional = false, default = true, explanation = "Enable model checkpointing during training.", example = true }
+checkpoint_save_freq = { optional = false, default = 2, explanation = "Save model checkpoint every Nth of episode length.", example = 2 }
+headless = { optional = false, default = false, explanation = "Run without GUI window.", example = false }
+device_type = { optional = false, default = "cuda", explanation = "Device type for training: 'cuda' for GPU, 'cpu' for CPU.", example = "cuda" }
+device_util = { optional = false, default = 0.5, explanation = "Fraction of device resources to use (GPU memory or CPU threads).", example = 0.5 }
+update_freq = { optional = false, default = 128, explanation = "Number of steps per policy update (PPO n_steps).", example = 128 }
+use_prev_model = { optional = false, default = false, explanation = "If true, continue training from the latest model in the sessions directory; if false, start a new model from scratch.", example = false }
+batch_size = { optional = false, default = 1024, explanation = "Mini-batch size for PPO updates. Should be a factor of n_steps * n_envs for efficiency.", example = 1024 }
+ent_coef = { optional = false, default = 0.05, explanation = "Entropy coefficient for PPO loss (encourages exploration).", example = 0.05 }
+
+[EvalModel]
+action_freq = { optional = false, default = 24, explanation = "Number of emulator frames per action (eval).", example = 24 }
+episode_length = { optional = false, default = 1000000, explanation = "Episode length (steps per episode, eval).", example = 1000000 }
+episode_count = { optional = false, default = 10, explanation = "Number of episodes for agent evaluation.", example = 10 }
+num_envs = { optional = false, default = 1, explanation = "Number of concurrent environments for evaluation.", example = 1 }
+headless = { optional = false, default = false, explanation = "Run evaluation without GUI window.", example = false }
+device_type = { optional = false, default = "cuda", explanation = "Device type for evaluation: 'cuda' for GPU, 'cpu' for CPU.", example = "cuda" }
+device_util = { optional = false, default = 0.5, explanation = "Fraction of device resources to use (GPU memory or CPU threads) during evaluation.", example = 0.5 }
+update_freq = { optional = false, default = 128, explanation = "Number of steps per policy update (PPO n_steps, eval).", example = 128 }
+ent_coef = { optional = false, default = 0.05, explanation = "Entropy coefficient for PPO loss (encourages exploration, eval).", example = 0.05 }
+
+[General]
+save_final_state = { optional = false, default = true, explanation = "Save the final state at the end of an episode.", example = true }
+early_stop = { optional = false, default = false, explanation = "Allow early stopping of the environment.", example = false }
+print_rewards = { optional = false, default = true, explanation = "Print reward information.", example = true }
+save_video = { optional = false, default = false, explanation = "Save gameplay video.", example = false }
+fast_video = { optional = false, default = true, explanation = "Save video at fast rate.", example = true }
+debug = { optional = false, default = false, explanation = "Enable debug output.", example = false }
+sim_frame_dist = { optional = false, default = 2000000.0, explanation = "Simulation frame distance parameter.", example = 2000000.0 }
+enable_stream_wrapper = { optional = false, default = false, explanation = "Enable or disable the StreamWrapper for broadcasting data.", example = false }
+tensorboard = { optional = false, default = false, explanation = "Enable saving of tensorboard logs during training.", example = false }
+
+
+

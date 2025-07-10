@@ -1,0 +1,254 @@
+{
+  "links_house": {
+    "name": "links_house",
+    "x_range": [
+      2344,
+      2504
+    ],
+    "y_range": [
+      8528,
+      8700
+    ],
+    "rewardable": false
+  },
+  "links_land": {
+    "name": "links_land",
+    "x_range": [
+      1570,
+      2530
+    ],
+    "y_range": [
+      2440,
+      3030
+    ],
+    "rewardable": true
+  },
+  "castle_bridge": {
+    "name": "castle_bridge",
+    "x_range": [
+      1624,
+      2480
+    ],
+    "y_range": [
+      2272,
+      2439
+    ],
+    "rewardable": true
+  },
+  "castle_grounds": {
+    "name": "castle_grounds",
+    "x_range": [
+      1570,
+      2480
+    ],
+    "y_range": [
+      1600,
+      2272
+    ],
+    "rewardable": true
+  },
+  "hc_b1_room1": {
+    "name": "hc_b1_room1",
+    "x_range": [
+      2672,
+      2992
+    ],
+    "y_range": [
+      2620,
+      2815
+    ],
+    "rewardable": true
+  },
+  "hc_b1_room2": {
+    "name": "hc_b1_room2",
+    "x_range": [
+      2656,
+      2976
+    ],
+    "y_range": [
+      2815,
+      2988
+    ],
+    "rewardable": true
+  },
+  "hc_f1_entrance": {
+    "name": "hc_f1_entrance",
+    "x_range": [
+      505,
+      1016
+    ],
+    "y_range": [
+      3055,
+      3496
+    ],
+    "rewardable": true
+  },
+  "hc_f1_throne_room": {
+    "name": "hc_f1_throne_room",
+    "x_range": [
+      664,
+      936
+    ],
+    "y_range": [
+      2590,
+      3055
+    ],
+    "rewardable": true
+  },
+  "hc_f1_left_wing": {
+    "name": "hc_f1_left_wing",
+    "x_range": [
+      296,
+      505
+    ],
+    "y_range": [
+      3055,
+      3520
+    ],
+    "rewardable": true
+  },
+  "hc_f1_right_wing": {
+    "name": "hc_f1_right_wing",
+    "x_range": [
+      1016,
+      1352
+    ],
+    "y_range": [
+      3055,
+      3516
+    ],
+    "rewardable": true
+  },
+  "hc_f1_upper_left_wing": {
+    "name": "hc_f1_upper_left_wing",
+    "x_range": [
+      343,
+      420
+    ],
+    "y_range": [
+      2664,
+      3055
+    ],
+    "rewardable": true
+  },
+  "hc_f1_upper_right_wing": {
+    "name": "hc_f1_upper_right_wing",
+    "x_range": [
+      1064,
+      1288
+    ],
+    "y_range": [
+      2608,
+      3055
+    ],
+    "rewardable": true
+  },
+  "hc_f1_basement_entrance": {
+    "name": "hc_f1_basement_entrance",
+    "x_range": [
+      550,
+      975
+    ],
+    "y_range": [
+      90,
+      150
+    ],
+    "rewardable": true
+  },
+  "hc_b1_room3": {
+    "name": "hc_b1_room3",
+    "x_range": [
+      1224,
+      1320
+    ],
+    "y_range": [
+      3656,
+      3776
+    ],
+    "rewardable": true
+  },
+  "hc_b1_room4a": {
+    "name": "hc_b1_room4a",
+    "x_range": [
+      1054,
+      1370
+    ],
+    "y_range": [
+      3888,
+      4496
+    ],
+    "rewardable": true
+  },
+  "hc_b1_room4b": {
+    "name": "hc_b1_room4b",
+    "x_range": [
+      608,
+      996
+    ],
+    "y_range": [
+      4168,
+      4494
+    ],
+    "rewardable": true
+  },
+  "hc_b1_room5": {
+    "name": "hc_b1_room5",
+    "x_range": [
+      576,
+      688
+    ],
+    "y_range": [
+      3894,
+      4008
+    ],
+    "rewardable": true
+  },
+  "hc_b1_room6": {
+    "name": "hc_b1_room6",
+    "x_range": [
+      822,
+      938
+    ],
+    "y_range": [
+      3934,
+      4008
+    ],
+    "rewardable": true
+  },
+  "hc_b1_room7": {
+    "name": "hc_b1_room7",
+    "x_range": [
+      606,
+      668
+    ],
+    "y_range": [
+      3688,
+      3776
+    ],
+    "rewardable": true
+  },
+  "hc_b2_room": {
+    "name": "hc_b2_room",
+    "x_range": [
+      64,
+      176
+    ],
+    "y_range": [
+      3632,
+      3664
+    ],
+    "rewardable": true
+  },
+  "hc_b3_room": {
+    "name": "hc_b3_room",
+    "x_range": [
+      64,
+      424
+    ],
+    "y_range": [
+      4144,
+      4288
+    ],
+    "rewardable": true
+  }
+}

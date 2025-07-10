@@ -1,0 +1,19 @@
+[Paths]
+base_path = { optional = false, default = '.', explanation = "Base path for replay visualization scripts", example = '.' }
+assets_path = { optional = false, default = 'assets/general', explanation = "Path to general assets folder for replay visualization", example = 'assets/general' }
+sessions_path = { optional = false, default = 'sessions', explanation = "Path to sessions folder for replay visualization", example = 'sessions' }
+
+[ReplayVisualization]
+screen_size_option = { optional = false, default = 'half', explanation = "Screen size option: 'FULL', 'HALF', 'SMALL'", example = 'half' }
+sprite_scale = { optional = false, default = 1, explanation = "Sprite scale factor", example = 1 }
+fps = { optional = false, default = 60, explanation = "Frames per second", example = 60 }
+teleport_threshold = { optional = false, default = 100, explanation = "Teleport threshold (pixels)", example = 100 }
+show_label = { optional = false, default = true, explanation = "Show label above Links (env-ep)", example = true }
+camera_move_speed = { optional = false, default = 10, explanation = "Camera move speed (pixels per frame)", example = 10 }
+num_movement_files = { optional = false, default = 'ALL', explanation = "Number of movement files to load ('ALL' or int)", example = 'ALL' }
+skip_to_position = { optional = false, default = 0, explanation = "Skip to position in replay (steps)", example = 0 }
+envs_to_load = { optional = false, default = 'all', explanation = "Which envs to load (int, list, or 'all')", example = 'all' }
+link_pos_offset_x = { optional = false, default = 6, explanation = "Link position offset X", example = 6 }
+link_pos_offset_y = { optional = false, default = 24, explanation = "Link position offset Y", example = 24 }
+world_map_image = { optional = false, default = 'lightworld_2.png', explanation = "World map image filename", example = 'lightworld_2.png' }
+zoom_level = { optional = false, default = 1.0, explanation = "Initial zoom level for replay visualization (1.0 = 100%)", example = 1.0 }

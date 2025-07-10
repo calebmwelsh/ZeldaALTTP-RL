@@ -1,0 +1,17 @@
+Loading ROM...
+Controls:
+Arrow keys: Movement
+Z: A button
+X: B button
+Enter: Start
+Right Shift: Select
+A: L button
+S: R button
+ESC: Exit
+F: Toggle fast-forward
+P: Save state
+I: Print player position and area info
+Loading save state: C:\Users\KDID\Documents\programming\projects\python\AI\Zelda-RL-test\zelda_test\states\Zelda_1.state
+Save state loaded successfully!
+Volatile addresses detected: 0 (not monitored)
+Game session ended

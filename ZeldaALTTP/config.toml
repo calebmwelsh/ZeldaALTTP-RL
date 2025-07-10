@@ -1,0 +1,44 @@
+[Paths]
+init_state = "states/StartPos.state"
+session_path = "sessions"
+assets_path = "visualization/assets"
+gb_path = "roms/gba/Legend of Zelda, The - A Link to the Past & Four Swords (USA).gba"
+override_model_path = "30"
+
+[TrainModel]
+action_freq = 7
+episode_length = 20000
+episode_count = 50
+num_envs = 16
+update_freq = 1024
+batch_size = 64
+ent_coef = 0.01
+checkpointing = true
+checkpoint_save_freq = 4
+headless = true
+device_type = "cuda"
+device_util = 1
+use_prev_model = true
+
+[EvalModel]
+action_freq = 7
+episode_length = 5000
+episode_count = 1
+num_envs = 1
+update_freq = 2048
+ent_coef = 0.05
+headless = false
+device_type = "cuda"
+device_util = 1
+
+[General]
+save_final_state = false
+early_stop = false
+print_rewards = true
+agent_enabled = false
+save_video = false
+fast_video = false
+sim_frame_dist = 0.0
+debug = false
+enable_stream_wrapper = false
+tensorboard = false
